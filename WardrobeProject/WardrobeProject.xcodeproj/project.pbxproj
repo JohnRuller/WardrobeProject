@@ -15,6 +15,7 @@
 		02B3433F1AAB742800B5A1B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02B3433E1AAB742800B5A1B4 /* Images.xcassets */; };
 		02B343421AAB742800B5A1B4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02B343401AAB742800B5A1B4 /* LaunchScreen.xib */; };
 		02B3434E1AAB742800B5A1B4 /* WardrobeProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B3434D1AAB742800B5A1B4 /* WardrobeProjectTests.m */; };
+		02B343591AAB77CD00B5A1B4 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B343581AAB77CD00B5A1B4 /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		02B343471AAB742800B5A1B4 /* WardrobeProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WardrobeProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02B3434C1AAB742800B5A1B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02B3434D1AAB742800B5A1B4 /* WardrobeProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WardrobeProjectTests.m; sourceTree = "<group>"; };
+		02B343571AAB77CD00B5A1B4 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		02B343581AAB77CD00B5A1B4 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				02B343321AAB742800B5A1B4 /* AppDelegate.h */,
 				02B343331AAB742800B5A1B4 /* AppDelegate.m */,
 				02B343381AAB742800B5A1B4 /* ViewController.h */,
+				02B343571AAB77CD00B5A1B4 /* MainViewController.h */,
+				02B343581AAB77CD00B5A1B4 /* MainViewController.m */,
 				02B343391AAB742800B5A1B4 /* ViewController.m */,
 				02B3433B1AAB742800B5A1B4 /* Main.storyboard */,
 				02B3433E1AAB742800B5A1B4 /* Images.xcassets */,
@@ -171,6 +176,7 @@
 				TargetAttributes = {
 					02B3432A1AAB742800B5A1B4 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 3UVA6AL657;
 					};
 					02B343461AAB742800B5A1B4 = {
 						CreatedOnToolsVersion = 6.1;
@@ -225,6 +231,7 @@
 				02B343341AAB742800B5A1B4 /* AppDelegate.m in Sources */,
 				02B343371AAB742800B5A1B4 /* WardrobeProject.xcdatamodeld in Sources */,
 				02B3433A1AAB742800B5A1B4 /* ViewController.m in Sources */,
+				02B343591AAB77CD00B5A1B4 /* MainViewController.m in Sources */,
 				02B343311AAB742800B5A1B4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
